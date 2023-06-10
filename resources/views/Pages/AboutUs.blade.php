@@ -11,7 +11,7 @@
 
     <!-- NAVBAR
     ================================================== -->
-    @include('Common.Innerheader')
+    @include('Common.innerHeader')
 
        <!-- PAGE TITLE
     ================================================== -->
