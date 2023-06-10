@@ -77,13 +77,13 @@
                                 </a>
                             </li>
                             <li class="mb-3">
-                                <a href="./about-v2.html" class="text-reset">
+                                <a href="{{route('aboutus')}}" class="text-reset">
                                     About Us
                                 </a>
                             </li>
 
                             <li class="mb-3">
-                                <a href="./contact-us.html" class="text-reset">
+                                <a href="{{route('contactus')}}" class="text-reset">
                                     Contact Us
                                 </a>
                             </li>
@@ -93,17 +93,17 @@
                                 </a>
                             </li>
                             <li class="mb-3">
-                                <a href="./contact-us.html" class="text-reset">
+                                <a href="{{route('termsofuse')}}" class="text-reset">
                                     Terms Of Use
                                 </a>
                             </li>
                             <li class="mb-3">
-                                <a href="./contact-us.html" class="text-reset">
+                                <a href="{{route('privacypolicy')}}" class="text-reset">
                                     Privacy & Policy
                                 </a>
                             </li>
                             <li class="mb-3">
-                                <a href="./contact-us.html" class="text-reset">
+                                <a href="{{route('refundandcancellation')}}" class="text-reset">
                                     Refund and Cancellation
                                 </a>
                             </li>
@@ -141,37 +141,37 @@
                         <!-- List -->
                         <ul class="list-unstyled text-gray-800 font-size-sm-alone mb-6 mb-md-8 mb-lg-0">
                             <li class="mb-3">
-                                <a href="./course-list-v2.html" class="text-reset">
+                                <a href="{{url('html')}}" class="text-reset">
                                     HTML
                                 </a>
                             </li>
                             <li class="mb-3">
-                                <a href="./course-list-v2.html" class="text-reset">
+                                <a href="{{url('css')}}" class="text-reset">
                                     CSS
                                 </a>
                             </li>
                             <li class="mb-3">
-                                <a href="./course-list-v6.html" class="text-reset">
+                                <a href="{{url('design')}}" class="text-reset">
                                     Design
                                 </a>
                             </li>
                             <li class="mb-3">
-                                <a href="./course-list-v5.html" class="text-reset">
+                                <a href="{{url('javascript')}}" class="text-reset">
                                     JavaScript
                                 </a>
                             </li>
                             <li class="mb-3">
-                                <a href="./course-list-v4.html" class="text-reset">
+                                <a href="{{url('ruby')}}" class="text-reset">
                                     Ruby
                                 </a>
                             </li>
                             <li class="mb-3">
-                                <a href="./course-list-v1.html" class="text-reset">
+                                <a href="{{url('php')}}" class="text-reset">
                                     PHP
                                 </a>
                             </li>
                             <li class="mb-3">
-                                <a href="./course-list-v3.html" class="text-reset">
+                                <a href="{{url('android')}}" class="text-reset">
                                     Android
                                 </a>
                             </li>
@@ -209,33 +209,33 @@
                         <!-- List -->
                         <ul class="list-unstyled text-gray-800 font-size-sm-alone mb-0">
                             <li class="mb-3">
-                                <a href="./lesson-single-v1.html" class="text-reset">
+                                <a href="{{url('design')}}" class="text-reset">
                                     Web Design
                                 </a>
                             </li>
                             <li class="mb-3">
-                                <a href="./lesson-single-v2.html" class="text-reset">
+                                <a href="{{url('webdevelopment')}}" class="text-reset">
                                     Web Development
                                 </a>
                             </li>
                             <li class="mb-3">
-                                <a href="./lesson-single-v1.html" class="text-reset">
+                                <a href="{{url('railsdevelopment')}}" class="text-reset">
                                     Rails Development
                                 </a>
                             </li>
                             <li class="mb-3">
-                                <a href="./lesson-single-v2.html" class="text-reset">
+                                <a href="{{url('phpdevelopment')}}" class="text-reset">
                                     PHP Development
                                 </a>
                             </li>
                             <li class="mb-3">
-                                <a href="./lesson-single-v1.html" class="text-reset">
+                                <a href="{{url('androiddevelopment')}}" class="text-reset">
                                     Android Development
                                 </a>
                             </li>
                             <li class="mb-3">
-                                <a href="./lesson-single-v2.html" class="text-reset">
-                                    Starting a Business
+                                <a href="{{url('reactdevelopment')}}" class="text-reset">
+                                    React Js Developemnt
                                 </a>
                             </li>
                         </ul>
@@ -271,22 +271,22 @@
                         <!-- List -->
                         <ul class="list-unstyled text-gray-800 font-size-sm-alone mb-0">
                             <li class="mb-3">
-                                <a href="./docs/index.html" class="text-reset">
+                                <a href="{{url('contactus')}}" class="text-reset">
                                     24X7 Shpport Online
                                 </a>
                             </li>
                             <li class="mb-3">
-                                <a href="./docs/index.html" class="text-reset">
+                                <a href="{{url('contactus')}}" class="text-reset">
                                     Email Us
                                 </a>
                             </li>
                             <li class="mb-3">
-                                <a href="./docs/index.html" class="text-reset">
+                                <a href="{{url('contactus')}}" class="text-reset">
                                     Call US
                                 </a>
                             </li>
                             <li class="mb-3">
-                                <a href="./docs/changelog.html" class="text-reset">
+                                <a href="{{url('contactus')}}" class="text-reset">
                                     Wahtsapp Chat
                                 </a>
                             </li>
@@ -302,19 +302,19 @@
                     <div class="ms-xl-auto d-flex flex-column flex-md-row align-items-stretch align-items-md-center justify-content-center">
                         <ul class="navbar-nav flex-row flex-wrap font-size-sm-alone mb-3 mb-md-0 mx-n4 me-md-5 justify-content-center justify-content-lg-start order-1 order-md-0">
                             <li class="nav-item py-2 py-md-0 px-0 border-top-0">
-                                <a href="./index.html" class="nav-link px-4 fw-normal text-gray-800">Home</a>
+                                <a href="{{url('/')}}" class="nav-link px-4 fw-normal text-gray-800">Home</a>
                             </li>
                             <li class="nav-item py-2 py-md-0 px-0 border-top-0">
-                                <a href="./terms-of-service.html" class="nav-link px-4 fw-normal text-gray-800">Site Map</a>
+                                <a href="{{route('privacypolicy')}}" class="nav-link px-4 fw-normal text-gray-800">Site Map</a>
                             </li>
                             <li class="nav-item py-2 py-md-0 px-0 border-top-0">
-                                <a href="./terms-of-service.html" class="nav-link px-4 fw-normal text-gray-800">Privacy policy</a>
+                                <a href="{{route('privacypolicy')}}" class="nav-link px-4 fw-normal text-gray-800">Privacy policy</a>
                             </li>
                             <li class="nav-item py-2 py-md-0 px-0 border-top-0">
-                                <a href="./terms-of-service.html" class="nav-link px-4 fw-normal text-gray-800">Web Use Policy</a>
+                                <a href="{{route('privacypolicy')}}" class="nav-link px-4 fw-normal text-gray-800">Web Use Policy</a>
                             </li>
                             <li class="nav-item py-2 py-md-0 px-0 border-top-0">
-                                <a href="./terms-of-service.html" class="nav-link px-4 fw-normal text-gray-800">Cookie Policy</a>
+                                <a href="{{route('privacypolicy')}}" class="nav-link px-4 fw-normal text-gray-800">Cookie Policy</a>
                             </li>
                         </ul>
                     </div>
